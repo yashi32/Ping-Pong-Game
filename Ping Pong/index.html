@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .display{
+            width: 100vw;
+            height: 100vh;
+            background-color:antiquewhite;
+            /* border:1px solid; */
+        }
+        #ball{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            top:5%;
+            left:50%;
+            background-color: red;
+        }
+        #bar-1,#bar-2{
+            width: 200px;
+            height: 18px;
+            position: relative;
+            top: 0;
+            left:45%;
+            background-color:lightseagreen;
+        }
+        #bar-2{
+            top:93.35%;
+        }
+        #score-board,#high-score{
+            position: absolute;
+            top:45%;
+            left:45%;
+            font-size: 2rem;
+            font-weight: bolder;
+            color:black;
+        }
+        #high-score{
+            top: 52%;
+            left: 47%;
+            font-size: 1.5rem;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="display">
+       <div id="ball">
+
+       </div>
+       <div id="bar-1">
+
+       </div>
+       <div id="bar-2">
+
+       </div>
+       <div id="score-board">
+           Your Score : 0
+       </div>
+       <div id="high-score">
+           High Score : 0
+       </div>
+   </div>
+   <script src="ping.js"></script>
+</body>
+</html>

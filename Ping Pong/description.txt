@@ -1,0 +1,8 @@
+Purpose - The purpose of the project is to create an interactive web page that responds to the user actions which is basically a game with two bars and one ball.
+
+Skill sets - HTML, CSS, JAVASCRIPT 
+
+Highlights - As it is a game which has two bars and one ball, implemented with
+  
+  * High Score Algorithm
+  * Speed Increment Algorithm
